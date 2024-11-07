@@ -110,3 +110,32 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
+.message.error-message {
+  background-color: #ffe6e6;
+  color: #d50000;
+  border-left: 4px solid #d50000;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 4px;
+}
+
+.message.debug-message {
+  background-color: #f8f9fa;
+  color: #666;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.message.system-message {
+  background-color: #f0f0f0;
+  color: #666;
+  font-style: italic;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
